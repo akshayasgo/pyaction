@@ -1,0 +1,9 @@
+name: "Hello Name (Python)"
+description: "A simple action to greet a person by name (in Python)."
+inputs:
+    name:
+        description: "The name of the person to greet."
+        required: true
+runs:
+    using: "docker"
+    image: "Dockerfile"  # Use the Dockerfile in the repository
